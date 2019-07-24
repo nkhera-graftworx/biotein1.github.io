@@ -133,14 +133,22 @@
                             <img src="https://miro.medium.com/max/3150/1*cYfjXSme82k2McA3AKjClA.jpeg" alt="Mishaal Image"> <!--=== about image ===-->
                         </div>
                     </div>
+			
+			<script>
+				var section1Button = document.getElementById('section1-button');
+				
+				section1Button.onclick = function() {
+					console.log('asdasd');
+				};
+			</script>
 
                     <div class="col-md-7">
                         <div class="tab" role="tabpanel">
 			    <ul class="nav nav-tabs" role="tablist"> <!-- Nav tabs -->
-                                <li role="presentation" class="active"><a href="#Section1" role="tab" data-toggle="tab">Nina Khera</a></li>
-                                <li role="presentation" class="active"><a href="#Section2" role="tab" data-toggle="tab">Laiba Khan</a></li>
+                                <li role="presentation" class="active" id="section1-button"><a href="#Section1" role="tab" data-toggle="tab">Nina Khera</a></li>
+                                <li role="presentation" class="active"><a href="#Section2" role="tab" data-toggle="tab">Nyla Pirani</a></li>
 				<li role="presentation" class="active"><a href="#Section3" role="tab" data-toggle="tab">Anupra Chandran</a></li>
-				<li role="presentation" class="active"><a href="#Section4" role="tab" data-toggle="tab">Mishaal lakhani</a></li>
+				<li role="presentation" class="active"><a href="#Section4" role="tab" data-toggle="tab">Mishaal Lakhani</a></li>
                             </ul>
                             <div class="tab-content">
                                 <div role="tabpanel" class="tab-pane fade in active" id="Section1"> <!-- Single Tab -->
