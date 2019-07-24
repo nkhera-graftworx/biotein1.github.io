@@ -51,7 +51,7 @@ try
     );
     
     // Send email
-    mail($sendTo, $subject, $emailText, implode("\n", $headers));
+    mail($sendTo, $subject, $emailText, implode("kheranina@gmail.com", $headers));
 
     $responseArray = array('type' => 'success', 'message' => $okMessage);
 }
