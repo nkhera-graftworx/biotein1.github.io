@@ -186,6 +186,8 @@
                                 <li role="presentation" class="active" class="theme-color" id="section2-button"><a href="#Section2" role="tab" data-toggle="tab">Linta Mustafa</a></li>
 				<li role="presentation" class="active" class="theme-color" id="section3-button"><a href="#Section3" role="tab" data-toggle="tab">Anupra Chandran</a></li>
 				<li role="presentation" class="active" class="theme-color" id="section4-button"><a href="#Section4" role="tab" data-toggle="tab">Andri Kadaifciu</a></li>
+				<li role="presentation" class="active" class="theme-color" id="section5-button"><a href="#Section5" role="tab" data-toggle="tab">Nancy Hamdy</a></li>
+				<li role="presentation" class="active" class="theme-color" id="section6-button"><a href="#Section6" role="tab" data-toggle="tab">Faith Inello</a></li>
                             </ul>
                     <div class="col-md-5">
                        <div class="author-image" id="Section1i" style = 'display:none'>
@@ -199,6 +201,12 @@
                         </div>
 			<div class="author-image" id="Section4i" style = 'display:none'>
                             <img src="https://miro.medium.com/max/1400/1*EEPgRl8AlxFBx0uL9Rz9mQ.jpeg" alt="Andri Image"> <!--=== about image ===-->
+                        </div>
+			<div class="author-image" id="Section5i" style = 'display:none'>
+                            <img src="https://media-exp1.licdn.com/dms/image/C5603AQFXuV3e8rJDJQ/profile-displayphoto-shrink_400_400/0?e=1597276800&v=beta&t=3KHAbx-FQ1o28dOM81HAC-JHvpvuNO96YDDni9tH_qE" alt="Nancy Image"> <!--=== about image ===-->
+                        </div>
+			<div class="author-image" id="Section6i" style = 'display:none'>
+                            <img src="https://cdn-images-1.medium.com/max/1200/2*FtYoNnNsHAtrRlWL1IZEfA.png" alt="Faith Image"> <!--=== about image ===-->
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -239,6 +247,24 @@
                                         <li><a href='https://www.linkedin.com/in/andri-kadaifciu-a051441b0/'><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
+				
+				<div role="tabpanel" class="tab-pane fade in active" id="Section5" style = 'display:none'> <!-- Single Tab -->
+                                    <h4 class="about-heading">Nancy Hamdy is a <span> neuroscience</span> & <span>public health</span> researcher.</h4>
+				   <h5 class="about-heading">Chief of R&D</h5>
+                                   <p>She is interested in the intersections of science art and technology. Her research at the University of Toronto explores the effects of socioeconomic determinants on neurodevelopment and mental health. As a freelance filmmaker and writer, Nancy addresses lesser known topics and improves science accessibility. She aims to ground mental health research and dialogue in biological approaches.</p>
+                                    <ul class="social-links"> <!--=== social-links ===-->
+                                        <li><a href='https://www.linkedin.com/in/nancy-hamdy-28a281138/'><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
+				    
+				<div role="tabpanel" class="tab-pane fade in active" id="Section6" style = 'display:none'> <!-- Single Tab -->
+                                    <h4 class="about-heading">Faith Inello is a 16-year-old <span> neurotech</span> & <span>metabolomics</span> researcher.</h4>
+				   <h5 class="about-heading">Neuroethics Delegate</h5>
+                                   <p>She is working to use emerging technologies to cure mental illness. Recently, Faith has built Neurojoy, a company using quantum dots in association with brain computer interfaces to effectively eradicate treatment resistant mental illness. At Biotein, she focuses on ethics, and how it applies to our various projects.</p>
+                                    <ul class="social-links"> <!--=== social-links ===-->
+                                        <li><a href='https://www.linkedin.com/in/nancy-hamdy-28a281138/'><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
 			</div>
                     </div>
                 </div> <!--/.row-->
@@ -258,19 +284,29 @@
 				var section2Button = document.getElementById('section2-button');
 				var section3Button = document.getElementById('section3-button');
 				var section4Button = document.getElementById('section4-button');
+				var section5Button = document.getElementById('section5-button');
+				var section6Button = document.getElementById('section6-button');
 				var section1About = document.getElementById('Section1');
 				var section2About = document.getElementById('Section2');
 				var section3About = document.getElementById('Section3');
 				var section4About = document.getElementById('Section4');
+				var section5About = document.getElementById('Section5');
+				var section6About = document.getElementById('Section6');
 				var section1Image = document.getElementById('Section1i');
 				var section2Image = document.getElementById('Section2i');
 				var section3Image = document.getElementById('Section3i');
 				var section4Image = document.getElementById('Section4i');
+				var section5Image = document.getElementById('Section5i');
+				var section6Image = document.getElementById('Section6i');
 				section1Button.onclick = function() {
 					section1About.style = 'display: inline-block;'
 					section2About.style = 'display:none';
 					section3About.style = 'display:none';
 					section4About.style = 'display:none';
+					section5About.style = 'display:none';
+					section6About.style = 'display:none';
+					section6Image.style = 'display:none';
+					section5Image.style = 'display:none';
 					section1Image.style = 'display: inline-block';
 					section2Image.style = 'display:none';
 					section3Image.style = 'display:none';
@@ -281,6 +317,10 @@
 					section1About.style = 'display:none';
 					section3About.style = 'display:none';
 					section4About.style = 'display:none';
+					section5About.style = 'display:none';
+					section6About.style = 'display:none';
+					section6Image.style = 'display:none';
+					section5Image.style = 'display:none';
 					section2Image.style = 'display: inline-block';
 					section1Image.style = 'display:none';
 					section3Image.style = 'display:none';
@@ -291,6 +331,10 @@
 					section2About.style = 'display:none';
 					section1About.style = 'display:none';
 					section4About.style = 'display:none';
+					section5About.style = 'display:none';
+					section6About.style = 'display:none';
+					section6Image.style = 'display:none';
+					section5Image.style = 'display:none';
 					section3Image.style = 'display: inline-block';
 					section2Image.style = 'display:none';
 					section1Image.style = 'display:none';
@@ -301,10 +345,42 @@
 					section2About.style = 'display:none';
 					section3About.style = 'display:none';
 					section1About.style = 'display:none';
+					section5About.style = 'display:none';
+					section5Image.style = 'display:none';
+					section6About.style = 'display:none';
+					section6Image.style = 'display:none';
 					section4Image.style = 'display: inline-block';
 					section2Image.style = 'display:none';
 					section3Image.style = 'display:none';
 					section1Image.style = 'display:none';
+				};
+				section5Button.onclick = function() {
+					section5About.style = 'display: inline-block;'
+					section2About.style = 'display:none';
+					section3About.style = 'display:none';
+					section1About.style = 'display:none';
+					section4About.style = 'display:none';
+					section6About.style = 'display:none';
+					section6Image.style = 'display:none';
+					section5Image.style = 'display: inline-block';
+					section2Image.style = 'display:none';
+					section3Image.style = 'display:none';
+					section1Image.style = 'display:none';
+					section4Image.style = 'display:none';
+				};
+				section6Button.onclick = function() {
+					section6About.style = 'display: inline-block;'
+					section2About.style = 'display:none';
+					section3About.style = 'display:none';
+					section1About.style = 'display:none';
+					section4About.style = 'display:none';
+					section5About.style = 'display:none';
+					section6Image.style = 'display: inline-block';
+					section2Image.style = 'display:none';
+					section3Image.style = 'display:none';
+					section1Image.style = 'display:none';
+					section4Image.style = 'display:none';
+					section5Image.style = 'display:none';
 				};
 		</script>
         <!--===== END ABOUT AREA =====-->
