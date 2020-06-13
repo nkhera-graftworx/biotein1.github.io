@@ -188,6 +188,7 @@
 				<li role="presentation" class="active" class="theme-color" id="section4-button"><a href="#Section4" role="tab" data-toggle="tab">Andri Kadaifciu</a></li>
 				<li role="presentation" class="active" class="theme-color" id="section5-button"><a href="#Section5" role="tab" data-toggle="tab">Nancy Hamdy</a></li>
 				<li role="presentation" class="active" class="theme-color" id="section6-button"><a href="#Section6" role="tab" data-toggle="tab">Faith Inello</a></li>
+				<li role="presentation" class="active" class="theme-color" id="section7-button"><a href="#Section7" role="tab" data-toggle="tab">Akshaj Darbar</a></li>
                             </ul>
                     <div class="col-md-5">
                        <div class="author-image" id="Section1i" style = 'display:none'>
@@ -207,6 +208,9 @@
                         </div>
 			<div class="author-image" id="Section6i" style = 'display:none'>
                             <img src="https://cdn-images-1.medium.com/max/1200/2*FtYoNnNsHAtrRlWL1IZEfA.png" alt="Faith Image"> <!--=== about image ===-->
+                        </div>
+			    <div class="author-image" id="Section6i" style = 'display:none'>
+                            <img src="https://akshajdarbar.com/static/img/IMG_6836.jpg" alt="Akshaj Image"> <!--=== about image ===-->
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -265,6 +269,15 @@
                                         <li><a href='https://www.linkedin.com/in/nancy-hamdy-28a281138/'><i class="fa fa-linkedin"></i></a></li>
                                     </ul>
                                 </div>
+				    
+				<div role="tabpanel" class="tab-pane fade in active" id="Section7" style = 'display:none'> <!-- Single Tab -->
+                                    <h4 class="about-heading">Akshaj Darbar is a 17-year-old <span> aging</span> & <span>artificial intelligence</span> researcher.</h4>
+				   <h5 class="about-heading">Research Scientist</h5>
+                                   <p>He is focused on deep learning and artificial intelligence, and using those tools in medical applications at the Simpson lab at Queen's University. He has created an innovation, GuideGen, to use ML to produce guide RNA sequences with minimal off-target effects.</p>
+                                    <ul class="social-links"> <!--=== social-links ===-->
+                                        <li><a href='https://www.linkedin.com/in/nancy-hamdy-28a281138/'><i class="fa fa-linkedin"></i></a></li>
+                                    </ul>
+                                </div>
 			</div>
                     </div>
                 </div> <!--/.row-->
@@ -286,18 +299,21 @@
 				var section4Button = document.getElementById('section4-button');
 				var section5Button = document.getElementById('section5-button');
 				var section6Button = document.getElementById('section6-button');
+				var section7Button = document.getElementById('section7-button');
 				var section1About = document.getElementById('Section1');
 				var section2About = document.getElementById('Section2');
 				var section3About = document.getElementById('Section3');
 				var section4About = document.getElementById('Section4');
 				var section5About = document.getElementById('Section5');
 				var section6About = document.getElementById('Section6');
+				var section7About = document.getElementById('Section7');
 				var section1Image = document.getElementById('Section1i');
 				var section2Image = document.getElementById('Section2i');
 				var section3Image = document.getElementById('Section3i');
 				var section4Image = document.getElementById('Section4i');
 				var section5Image = document.getElementById('Section5i');
 				var section6Image = document.getElementById('Section6i');
+				var section7Image = document.getElementById('Section7i');
 				section1Button.onclick = function() {
 					section1About.style = 'display: inline-block;'
 					section2About.style = 'display:none';
@@ -305,6 +321,8 @@
 					section4About.style = 'display:none';
 					section5About.style = 'display:none';
 					section6About.style = 'display:none';
+					section7About.style = 'display:none';
+					section7Image.style = 'display:none';
 					section6Image.style = 'display:none';
 					section5Image.style = 'display:none';
 					section1Image.style = 'display: inline-block';
@@ -319,6 +337,8 @@
 					section4About.style = 'display:none';
 					section5About.style = 'display:none';
 					section6About.style = 'display:none';
+					section7About.style = 'display:none';
+					section7Image.style = 'display:none';
 					section6Image.style = 'display:none';
 					section5Image.style = 'display:none';
 					section2Image.style = 'display: inline-block';
@@ -333,6 +353,8 @@
 					section4About.style = 'display:none';
 					section5About.style = 'display:none';
 					section6About.style = 'display:none';
+					section7About.style = 'display:none';
+					section7Image.style = 'display:none';
 					section6Image.style = 'display:none';
 					section5Image.style = 'display:none';
 					section3Image.style = 'display: inline-block';
@@ -348,6 +370,8 @@
 					section5About.style = 'display:none';
 					section5Image.style = 'display:none';
 					section6About.style = 'display:none';
+					section7About.style = 'display:none';
+					section7Image.style = 'display:none';
 					section6Image.style = 'display:none';
 					section4Image.style = 'display: inline-block';
 					section2Image.style = 'display:none';
@@ -361,6 +385,8 @@
 					section1About.style = 'display:none';
 					section4About.style = 'display:none';
 					section6About.style = 'display:none';
+					section7About.style = 'display:none';
+					section7Image.style = 'display:none';
 					section6Image.style = 'display:none';
 					section5Image.style = 'display: inline-block';
 					section2Image.style = 'display:none';
@@ -375,7 +401,25 @@
 					section1About.style = 'display:none';
 					section4About.style = 'display:none';
 					section5About.style = 'display:none';
+					section7About.style = 'display:none';
+					section7Image.style = 'display:none';
 					section6Image.style = 'display: inline-block';
+					section2Image.style = 'display:none';
+					section3Image.style = 'display:none';
+					section1Image.style = 'display:none';
+					section4Image.style = 'display:none';
+					section5Image.style = 'display:none';
+				};
+				section7Button.onclick = function() {
+					section7About.style = 'display: inline-block;'
+					section2About.style = 'display:none';
+					section3About.style = 'display:none';
+					section1About.style = 'display:none';
+					section4About.style = 'display:none';
+					section5About.style = 'display:none';
+					section6About.style = 'display:none';
+					section6Image.style = 'display:none';
+					section7Image.style = 'display: inline-block';
 					section2Image.style = 'display:none';
 					section3Image.style = 'display:none';
 					section1Image.style = 'display:none';
