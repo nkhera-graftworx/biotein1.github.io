@@ -1,0 +1,108 @@
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #1dba4d!important;
+  border-color: #1dba4d!important;
+  color: #ffffff;
+  border-radius: 30px;
+  width: 20%;
+}
+
+.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger {
+  border-radius: 1em;
+  border: none;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #49c970;
+  font-weight: 700;
+  /*font-size: 14.4px;*/
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #49c970;
+  border-color: #49c970;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: rgb(73,201,112);
+}
+
+body::-moz-selection {
+  background: rgb(73,201,112);
+}
+
+h1::selection {
+  background: rgb(73,201,112);
+}
+
+p::selection {
+  background: rgb(73,201,112);
+}
+
+button::selection {
+  background: rgb(73,201,112);
+}
+
+header.masthead {
+  text-align: center;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 50%;
+  background-size: cover;
+}
+
+@media (max-width: 576px) {
+  .headmain {
+    font-size: 10vw;
+  }
+}
+
+@media (min-width: 577px) {
+  .headmain {
+    font-size: 5vw;
+  }
+}
+
+@media (min-width: 577px) {
+  .headsub {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .headsub {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .team-member img {
+    width: 350px;
+    height: 160px;
+    border: 7px solid #fff;
+  }
+}
+
+@media (min-width: 350px) and (max-width:575px) {
+  .team-member img {
+    width: 65vw;
+    height: 65vw;
+    border: 7px solid #fff;
+  }
+}
+
+#mission {
+  line-height: 1.8;
+}
+
+.form-control::selection {
+  color: #49c970;
+}
+
+.btn-primary.focus, .btn-primary:focus, .btn-primary:hover {
+  color: #212529;
+  background-color: #1dba4d!important;
+  border-color: #1dba4d!important;
+}
+
